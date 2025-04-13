@@ -1,0 +1,32 @@
+
+.boton{
+    margin-top: 1rem;
+    border-radius: 20rem;
+    height: 3rem;
+    background-color: #00c6ff;
+    font-size: 1.5rem;
+}
+
+.boton:hover {
+    background-color: darkblue;
+    cursor: pointer;
+  }
+
+
+.contenedor{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    margin:auto;
+    text-align: center;
+    margin-top: 15%;
+
+    
+    
+}
+
+
+body{
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    height: 100%;
+}
+
